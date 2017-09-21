@@ -1,2 +1,20 @@
+[字符串] 
+
 1. [字符串] 删除第一个字符
 url.substring(1)
+eg: var param = '?h=1&d=123'
+param.substring(1)  // param = 'h=1&d=123'
+
+
+2. 获取第一个字符
+str.substr(0,1)
+
+
+
+
+[函数]
+apply 另外用法，除了绑定作用域外，还可以传入未知的参数
+
+function den(){
+  this.scroll.scrollTo.apply(this.scroll, arguments)
+}
